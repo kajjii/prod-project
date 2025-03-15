@@ -14,7 +14,8 @@ export default [
 ];
 
 // plugins: [
-//     'i18next'
+//     'i18next',
+//      'react-hooks'
 // ]
 
 // extends: [
@@ -22,5 +23,7 @@ export default [
 // ]
 
 // rules: {
-//     "i18next/no-literal-string": ['error', {markupOnly: true}]
+//     "i18next/no-literal-string": ['error', {markupOnly: true}],
+//      "react-hooks/rules-of-hooks": "error",
+//      "react-hooks/exhaustive-deps": "error"
 // }

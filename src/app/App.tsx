@@ -1,10 +1,9 @@
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import { Route, Routes, Link } from "react-router-dom";
 import { useTheme } from "app/providers/ThemeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
 import { AboutPage } from 'pages/AboutPage';
 import { MainPage } from 'pages/MainPage';
-import './styles/index.scss'
 import { AppRouter } from './providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
